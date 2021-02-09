@@ -21,3 +21,18 @@ for(let i = 1; i <= 10; i++){
 
 }
 console.log(table)
+
+for(let i = 0; i < 10; i++){
+    let row = table[i]
+
+    for(let j = 0; j < 10; j++){
+        let value = row[j]
+        process.stdout.write(value.toString())
+        process.stdout.write('\t')
+    }
+        process.stdout.write('\n')
+
+}
+
+
+
