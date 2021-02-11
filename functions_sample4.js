@@ -10,3 +10,7 @@ console.log(greetings())
 
 console.log(greetings('Amar'))
 // output Hello Amar
+
+let output = greetings('Amar')
+console.log(output)
+// output Hello Amar
