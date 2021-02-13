@@ -15,7 +15,12 @@ let Greet2 = function(name0){
     console.log('Hello '+ name0)
 }
 
+let Greet3 = (name0) => {
+    console.log('Hello  '+ name0)
+}
+
 let nameX = 'Amar'
 
 Greet1(nameX)
 Greet2(nameX)
+Greet3(nameX)
